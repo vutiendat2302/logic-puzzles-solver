@@ -124,3 +124,14 @@ Ngoài việc giải puzzle, dự án còn tập trung vào:
 
 
 
+## Hướng dẫn cách chạy Area_51:
+
+```bash
+python main.py -f data/easy/8x8.json -o results -v
+
+```
+| Tham số | Ý nghĩa |
+|--------|--------|
+| `-f` | File input puzzle (.json) |
+| `-o` | Thư mục output |
+| `-v` | Hiển thị log chi tiết |

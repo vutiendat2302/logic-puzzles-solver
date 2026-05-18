@@ -46,7 +46,6 @@ ConstraintPuzzleSolver/
 ├── area51/
 │   ├── models/           # Mô hình ràng buộc
 │   ├── solver/           # Thuật toán giải
-|   |── gifs /            # # GIF mô phỏng
 │   ├── visualization/    # Vẽ và trực quan hóa
 │   ├── data/    # Vẽ và trực quan hóa
 │   ├── reports/ # Báo cáo và Slide      
@@ -67,13 +66,32 @@ ConstraintPuzzleSolver/
 
 > matplotlib
 
-- Cài đặt thư viện: 
+### 1. Clone project
+```bash
+git clone <repo_url>
+```
 
+- Cài đặt môi trường:
+
+```bash
+python -m venv venv
+venv\Scripts\activate   # Windows
+source venv/bin/activate  # Linux/Mac
+
+```
+
+
+- Cài đặt thư viện:
 ```bash
 pip install -r requirements.txt
 ```
 
+- Cài đặt Gurobi: 
 
+```bash
+grbgetkey YOUR_LICENSE_KEY
+
+```
 
 
 

@@ -1,0 +1,5 @@
+gurobipy==13.0.2
+numpy>=1.23
+matplotlib>=3.5
+pillow
+pandas
