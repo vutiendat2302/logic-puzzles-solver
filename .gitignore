@@ -12,9 +12,7 @@ venv/
 *.ilp
 *.lp
 
-# Output folders
-results/
-reports/
+
 
 # OS files
 .DS_Store
