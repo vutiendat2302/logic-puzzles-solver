@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+venv/
+.env/
+
+# Gurobi debug files
+*.ilp
+*.lp
+
+# Output folders
+results/
+reports/
+
+# OS files
+.DS_Store
+Thumbs.db
