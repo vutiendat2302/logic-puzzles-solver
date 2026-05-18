@@ -1,0 +1,29 @@
+{
+    "matrix_1": {
+        "note": "Ma trận ô (8x8). Number: các số không có vòng tròn. 'C': Cactus (xương rồng). 'A': Alien (người ngoài hành tinh). null: ô trống.",
+        "data": [
+            [null, null, null, null, 3, 3, null, null],
+            [2, null, 1, null, null, null, null, null],
+            ["A", null, null, null, null, null, null, null],
+            [2, null, 1, null, {"value": 3, "circled": true}, null, null, 3],
+            [null, null, 1, null, null, null, null, null],
+            [null, null, 1, null, 1, 2, null, 3],
+            [null, null, null, 3, null, null, null, null],
+            [null, null, null, null, 3, "C", null, null]
+        ]
+    },
+    "matrix_2": {
+        "note": "Ma trận đỉnh (9x9). B: black node (chấm đen). W: white node (chấm trắng). Dùng cho ràng buộc Masyu để định nghĩa hướng đi và góc rẽ của đường đi.",
+        "data": [
+            [null, null, null, "W", null, null, null, null, null],
+            [null, null, null, null, null, null, null, null, "W"],
+            [null, null, null, null, "W", null, null, null, null],
+            ["B", null, null, null, null, null, null, null, null],
+            [null, null, null, null, null, null, "W", null, null],
+            [null, null, null, null, "W", null, null, null, null],
+            ["B", null, null, null, null, null, null, null, null],
+            [null, null, null, null, null, null, null, null, null],
+            [null, "W", "W", null, null, null, "B", null, null]
+        ]
+    }
+}

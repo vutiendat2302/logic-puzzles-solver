@@ -1,0 +1,43 @@
+{
+    "matrix_1": {
+        "note": "Ma trận ô (15x12). Number: các số không có vòng tròn. 'C': Cactus (xương rồng). 'A': Alien (người ngoài hành tinh). null: ô trống.",
+        "data": [
+            [null, null, null, 2, null, null, null, 2, null, 3, null, "C"],
+            [null, null, null, 1, 3, null, 1, {"value": 7, "circled": true}, 1, null, null, null],
+            [null, null, null, null, null, null, 2, null, null, "C", null, 2],
+            [null, null, null, 3, 2, null, null, null, null, null, null, null],
+            [null, null, 1, null, null, null, 2, null, null, null, 1, null],
+            [null, null, null, null, 2, null, null, 1, null, null, null, null],
+            [null, 2, "C", null, null, null, null, null, "A", "C", null, 2],
+            [null, 1, null, null, null, 2, 1, null, 1, null, null, null],
+            [null, null, null, 3, null,  3, null,null, 1, null, 1, null],
+            [null, 2, null, null, null, null, null, 3, null, null, null, null],
+            [null, null, "A", null, 3, null, null, null, null, 1, 1, 2],
+            [null, null, null, null, 2, null, null, null, null, null, null, "C"],
+            [null, 2, 2, null, 2, null, null, null, null, null, null, null],
+            [null, null, "C", null, null, null, null, null, null, null, null, 2],
+            [null, null, null, null, null,  3, null, null, 2, 3, null, null]
+        ]
+    },
+    "matrix_2": {
+        "note": "Ma trận đỉnh (16x13). B: black node (chấm đen). W: white node (chấm trắng). Dùng cho ràng buộc Masyu để định nghĩa hướng đi và góc rẽ của đường đi.",
+        "data": [
+            ["B", null, null, null, null, null, null, null, null, null, null, null, null],
+            [null, null, null, null, null, null, "W", null, null, null, null, null, null],
+            [null, null, "W", null, null, null, "B", null, null, null, null, "W", null],
+            ["B", null, null, null, null, null, null, null, null, null, null, null, null],
+            [null, null, null, null, null, null, "W", null, null, null, null, null, null],
+            [null, "W", null, null, null, "B", null, null, null, null, null, null, null],
+            [null, null, null, null, null, null, null, null, null, null, null, null, "B"],
+            ["W", null, null, null, "B", null, null, null, null, null, null, null, null],
+            [null, null, null, "W", null, null, null, null, null, null, null, null, "B"],
+            ["W", null, null, null, null, null, null, null, null, null, null, null, null],
+            [null, null, null, null, null, null, null, null, null, null, null, null, null],
+            ["B", null, null, null, null, null, "B", null, null, null, null, null, null],
+            [null, null, null, null, null, null, null, null, null, null, "W", null, null],
+            [null, null, null, "B", null, null, null, null, null, null, null, null, null],
+            [null, null, null, null, null, null, "W", null, null, null, null, null, null],
+            ["B", null, null, null, null, null, null, null, null, null, null, "B", null]
+        ]
+    }
+}
